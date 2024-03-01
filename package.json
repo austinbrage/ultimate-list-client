@@ -1,8 +1,16 @@
 {
-  "name": "frontend",
-  "private": true,
-  "sideEffects": false,
+  "name": "ultimate-list-client",
+  "version": "0.0.1",
   "type": "module",
+  "main": "root.tsx",
+  "author": "Austin Brage",
+  "license": "ISC",
+  "description": "Client interface for management of users, projects and ideas",
+  "keywords": [
+    "Management",
+    "Projects",
+    "Ideas"
+  ],
   "scripts": {
     "build": "remix vite:build",
     "dev": "remix vite:dev",
@@ -34,5 +42,13 @@
   },
   "engines": {
     "node": ">=18.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/austinbrage/ultimate-list-client"
+  },
+  "bugs": {
+    "url": "https://github.com/austinbrage/ultimate-list-client/issues"
+  },
+  "homepage": "https://github.com/austinbrage/ultimate-list-client/blob/main/README.md"
 }
